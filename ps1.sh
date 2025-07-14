@@ -18,6 +18,7 @@ WHITE='\e[0;37m'
 RESET='\e[0m'
 
 PS1="${GREEN}\u${RESET} @ ${CYAN}\h${RESET} : ${YELLOW}\w${RESET} ${MAGENTA}\$${RESET} "
+PS1="\u @ \h : \w \$ "
 
 # History
 HISTCONTROL="ignoredups:ignorespace"
