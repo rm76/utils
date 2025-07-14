@@ -7,7 +7,7 @@ MAGENTA=$(tput setaf 5)
 CYAN=$(tput setaf 6)
 WHITE=$(tput setaf 7)
 RESET=$(tput sgr0)
-PS1="${GREEN}\u${RESET} @ ${CYAN}\h${RESET} : ${YELLOW}\w\n ${MAGENTA}\$${RESET} "
+PS1="${GREEN}\u${RESET} @ ${CYAN}\h${RESET} : ${YELLOW}\w${RESET}\n ${MAGENTA}\$${RESET} "
 
 # History
 HISTCONTROL="ignoredups:ignorespace"
